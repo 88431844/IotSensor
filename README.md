@@ -1,4 +1,4 @@
-# Iot-Sensor
+# IotSensor
 
 ## 硬件基于esp8266 和 传感器的物联网设备
 
