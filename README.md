@@ -1,8 +1,18 @@
-# Iot-Temperature-Sensor
+# Iot-Sensor
 
-硬件基于esp8266-01 和 ds18b20的物联网温度传感器
+硬件基于esp8266 和 传感器的物联网设备
 
 软件基于物联网MQTT协议，连接到MQTT broker(server),每隔一段时间进行数据上报
+
+预计开发：
+
+Iot-Temp:基于 esp8266-01 和 ds18b20 温度传感器的温度物联网设备，按照一定时间间隔上传温度数据到broker。
+
+Iot-Humidity:基于 esp8266-01 和 DHT11 湿度传感器的物联网设备，按照一定时间间隔上传湿度数据到broker。
+
+Iot-Socket:基于esp8266-01 和 led、继电器、按钮的插座的物联网设备，led用于显示开关状态，按钮用于切换开关状态，继电器用于接通、切断电源。
+
+Iot-Reed:基于esp8266-01 和 干簧管、磁铁的门窗状态物联网设备。
 
 设计目标：
 
