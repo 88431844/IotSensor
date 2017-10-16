@@ -6,7 +6,8 @@
 #include <WiFiManager.h>          //https://github.com/tzapu/WiFiManager
 
 // select wich pin will trigger the configuraton portal when set to LOW
-// ESP-01 users please note: the only pins available (0 and 2), are shared 
+// ESP-01 users
+ please note: the only pins available (0 and 2), are shared
 // with the bootloader, so always set them HIGH at power-up
 #define TRIGGER_PIN 0
 
